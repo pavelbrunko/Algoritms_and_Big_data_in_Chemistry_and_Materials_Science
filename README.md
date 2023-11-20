@@ -1,7 +1,7 @@
 ## Algorithms and Big Data in Chemistry and Material Science project
 
 #### Short description:
-In this repository you can find the main .ipynb file, which consist of answers to a few question we were asking during this course, and the initial dataset as .csv file.
+In this repository you can find the main .ipynb file, which consist of answers to a few question we were asked during this course, and the initial dataset as .csv file.
 ___
 
 #### Wide description:
@@ -12,15 +12,15 @@ On the first sted we checked the data for the missing values, detected and delet
 
 2. Using chemical libraries, complete the dataset with molecule descriptors. Describe the descriptors you have chosen.
 
-On this point we complite our dataset with new features using two chemical libraries (Mordred and RDkit) by using their API. The dataset became 20236 rows × 1348 columns from innitial 20236 rows × 14 columns.
+On this point we complite our dataset with new features using two chemical libraries (Mordred and RDkit) with their API. The dataset became 20236 rows × 1348 columns from innitial 20236 rows × 14 columns.
 
 3. Make a visual analysis of the data and its distribution. Create at least 3 different types of statistical graphs to analyze the data. Draw conclusions and explain why these graphs are useful for analyzing data. 
 
-On this step we creating some visualization instruments like box-plots, distribution graphs, violin plots and the pairplot. For making all this graphs more readable we applied PCA method to decrease out dimentionality. Number of features decreased from 1348 to 19.
+On this step we created some visualization instruments like box-plots, distribution graphs, violin plots and the pairplot. For making all this graphs more readable we applied PCA method to decrease out dimentionality. Number of features decreased from 1348 to 19.
 
 4. Calculate correlation coefficients for your dataset and investigate multicollinearity. Visualize and interpret your results.
 
-Here we created a heatmap with Pearson coefficients to look for some multicollinearity if it is present. As we can see all our features are independent.
+Here we created a heatmap with Pearson's coefficients to look for some multicollinearity if it is present. As we can see all our features are independent.
 
 5. Select the dataset parameters using the correlation coefficients from the last step with the limit you have chosen. Which descriptors have fallen out of the dataset and why?
 
